@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Bootstrap</title>
+  <link rel="stylesheet" href="assets/vendors/mdi/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="assets/vendors/css/vendor.bundle.base.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="shortcut icon" href="assets/images/logosmall.png" />
+</head>
+
+<body onload="window.scrollTo(0,0);">
+  <div class="container-scroller">
+    <nav class="navbar col-lg-12 col-12 p-0 d-flex flex-row">
+      <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
+        <a class="navbar-brand brand-logo" href="index.html"><img src="assets/images/bootstrap.png" alt="logo" id="large" /></a>
+        <a class="navbar-brand brand-logo-mini" href="index.html"><img src="assets/images/logoc.png" alt="logo" id="small" /></a>
+      </div>
+      <div>
+        <ul class="navbar-nav d-lg-none">
+          <li>
+            <a class="navbar-brand brand-logo" href="index.html"><img src="assets/images/bootstrap.png" alt="logo" id="large2" /></a></li>
+        </ul>
+      </div>
+      <div class="navbar-menu-wrapper d-flex">
+        <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
+          <span class="mdi mdi-menu"></span>
+        </button>
+        <ul class="navbar-nav navbar-nav-right">
+          <li class="nav-item d-none d-lg-block full-screen-link">
+            <a class="nav-link">
+              <i class="mdi mdi-fullscreen" id="fullscreen-button"></i>
+            </a>
+          </li>
+        </ul>
+        <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
+          <span class="mdi mdi-menu"></span>
+        </button>
+      </div>
+    </nav>
+    <div class="container-fluid page-body-wrapper">
+      <nav class="sidebar sidebar-offcanvas" id="sidebar">
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">
+              <span class="menu-title">Home</span>
+              <i class="mdi mdi-home menu-icon"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
+              <span class="menu-title">Basic UI Elements</span>
+              <i class="menu-arrow"></i>
+              <i class="mdi mdi-crosshairs-gps menu-icon"></i>
+            </a>
+            <div class="collapse" id="ui-basic">
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item"> <a class="nav-link" href="pages/ui-features/buttons.html">Buttons</a></li>
+                <li class="nav-item"> <a class="nav-link" href="pages/ui-features/typography.html">Typography</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pages/icons/mdi.html">
+              <span class="menu-title">Icons</span>
+              <i class="mdi mdi-contacts menu-icon"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pages/forms/basic_elements.html">
+              <span class="menu-title">Forms</span>
+              <i class="mdi mdi-format-list-bulleted menu-icon"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pages/tables/basic-table.html">
+              <span class="menu-title">Tables</span>
+              <i class="mdi mdi-table-large menu-icon"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="collapse" href="#more" aria-expanded="false" aria-controls="more">
+              <span class="menu-title">More</span>
+              <i class="mdi mdi-dots-horizontal menu-icon"></i>
+            </a>
+            <div class="collapse" id="more">
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item"><span class="nav-link">Coming soon...</span></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </nav>
+      <div class="main-panel">
+        <div class="content-wrapper">
+          <div class="page-header">
+            <h3 class="page-title" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1000">
+              <span class="page-title-icon bg-gradient-primary text-white mr-2">
+                <i class="mdi mdi-home"></i>
+              </span> Home</h3>
+            <nav aria-label="breadcrumb">
+              <ul class="breadcrumb" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1000">
+                <li class="breadcrumb-item active">
+                  <span></span>Overview <i class="mdi mdi-alert-circle-outline icon-sm text-primary align-middle"></i>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="row row-content pb-5 pt-3">
+            <div class="col-6 mx-auto col-md-4 order-md-2" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000">
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="430" class="img-fluid mb-3 mb-md-0" viewBox="0 0 1024 860" focusable="false" role="img">
+                <title>Bootstrap</title>
+                <defs>
+                  <linearGradient id="c" x1="50%" x2="50%" y1="0%" y2="100%">
+                    <stop offset="0%" stop-color="#5c24ae" />
+                    <stop offset="100%" stop-color="#30135a" />
+                  </linearGradient>
+                  <path id="b" d="M355.967 242.807l-322 216.395c-44.275 29.754-44.275 78.443 0 108.197l322 216.395c44.275 29.754 116.725 29.754 161 0l322-216.395c44.275-29.754 44.275-78.443 0-108.197l-322-216.395c-44.275-29.754-116.725-29.754-161 0z" />
+                  <filter id="a" width="108%" height="112%" x="-4%" y="-4.3%" filterUnits="objectBoundingBox">
+                    <feOffset dy="10" in="SourceAlpha" result="shadowOffsetOuter1" />
+                    <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="10" />
+                    <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                  </filter>
+                  <linearGradient id="f" x1="50%" x2="50%" y1="-17.303%" y2="100%">
+                    <stop offset="0%" stop-color="#7331d4" />
+                    <stop offset="100%" stop-color="#461b84" />
+                  </linearGradient>
+                  <path id="e" d="M355.967 132.807l-322 216.395c-44.275 29.754-44.275 78.443 0 108.197l322 216.395c44.275 29.754 116.725 29.754 161 0l322-216.395c44.275-29.754 44.275-78.443 0-108.197l-322-216.395c-44.275-29.754-116.725-29.754-161 0z" />
+                  <filter id="d" width="108%" height="112%" x="-4%" y="-4.3%" filterUnits="objectBoundingBox">
+                    <feOffset dy="10" in="SourceAlpha" result="shadowOffsetOuter1" />
+                    <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="10" />
+                    <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                  </filter>
+                  <linearGradient id="i" x1="50%" x2="50%" y1="0%" y2="100%">
+                    <stop offset="0%" stop-color="#905bdd" />
+                    <stop offset="100%" stop-color="#5521a0" />
+                  </linearGradient>
+                  <path id="h" d="M355.967 22.807l-322 216.395c-44.275 29.754-44.275 78.443 0 108.197l322 216.395c44.275 29.754 116.725 29.754 161 0l322-216.395c44.275-29.754 44.275-78.443 0-108.197l-322-216.395c-44.275-29.754-116.725-29.754-161 0z" />
+                  <filter id="g" width="108%" height="112%" x="-4%" y="-4.3%" filterUnits="objectBoundingBox">
+                    <feOffset dy="10" in="SourceAlpha" result="shadowOffsetOuter1" />
+                    <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="10" />
+                    <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                  </filter>
+                </defs>
+                <g fill="none">
+                  <g transform="translate(75 23)">
+                    <use fill="#000" filter="url(#a)" xlink:href="#b" />
+                    <use fill="url(#c)" xlink:href="#b" />
+                  </g>
+                  <g transform="translate(75 23)">
+                    <use fill="#000" filter="url(#d)" xlink:href="#e" />
+                    <use fill="url(#f)" xlink:href="#e" />
+                  </g>
+                  <g transform="translate(75 23)">
+                    <use fill="#000" filter="url(#g)" xlink:href="#h" />
+                    <use fill="url(#i)" xlink:href="#h" />
+                  </g>
+                  <path fill="#fff" d="M558.273 447.667L308.036 279.5l97.982-65.847c42.83-28.784 96.789-31.483 134.245-6.311 26.044 17.502 31.214 46.615 11.444 65.724l1.389.934c38.324-19.932 84.107-18.527 117.396 3.845 44.046 29.6 38.671 68.419-14.561 104.193l-97.658 65.629zM447.112 331.01l49.942-33.562c36.935-24.822 42.31-48.249 15.224-66.451-24.798-16.665-55.49-14.453-85.851 5.95l-59.641 40.081 80.326 53.982zm176.532 35.663c37.63-25.289 42.136-48.832 13.203-68.276-28.932-19.444-64.163-15.614-104.042 11.186l-58.789 39.508 87.92 59.084 61.708-41.502z" />
+                </g>
+              </svg>
+            </div>
+            <div class="col-md-8 order-md-1 text-center text-md-left pr-md-5" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000">
+              <h1 class="mb-3">Bootstrap</h1>
+              <p class="lead mb-4">
+                Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains CSS- and (optionally) JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.<br>
+                Bootstrap is a web framework that focuses on simplifying the development of informative web pages (as opposed to web apps). The primary purpose of adding it to a web project is to apply Bootstrap's choices of color, size, font and layout to that project. As such, the primary factor is whether the developers in charge find those choices to their liking. Once added to a project, Bootstrap provides basic style definitions for all HTML elements. The result is a uniform appearance for prose, tables and form elements across web browsers.
+              </p>
+              <div class="d-flex flex-column flex-md-row">
+                <a href="pages/ui-features/buttons.html" class="btn btn-lg btn-outline-primary mb-3 mr-md-3">Get started</a>
+                <a href="https://github.com/twbs/bootstrap/releases/download/v4.5.0/bootstrap-4.5.0-dist.zip" class="btn btn-lg btn-outline-secondary mb-3">Download</a>
+              </div>
+              <p class="text-muted mb-0">
+                Currently v4.5.0
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 stretch-card grid-margin">
+              <div class="card bg-gradient-danger card-img-holder text-white" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000">
+                <div class="card-body">
+                  <h4 class="font-weight-normal mb-3">Installation <i class="mdi mdi-download mdi-24px float-right"></i>
+                  </h4>
+                  <h5 class="mb-4">Install Bootstrap’s source Sass and JavaScript files via npm, Composer, or Meteor.</h5>
+                      <pre class="card-text"># Via npm<br>npm install bootstrap<br><br># Via gem<br>gem install bootstrap -v 4.5.0</pre>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 stretch-card grid-margin">
+              <div class="card bg-gradient-info card-img-holder text-white" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000">
+                <div class="card-body">
+                  <h4 class="font-weight-normal mb-3">CDN <i class="mdi mdi-cloud-circle mdi-24px float-right"></i>
+                  </h4>
+                  <h5 class="mb-3">When you only need to include Bootstrap’s compiled CSS or JS, you can use BootstrapCDN.</h5>
+                      <pre class="card-text"><span>&lt;!-- CSS only --&gt;</span>
+ <span>&lt;link</span> <span>rel=</span><span>"stylesheet"</span> <span>href=</span><span>"https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"</span> <span>integrity=</span><span>"sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"</span> <span>crossorigin=</span><span>"anonymous"</span><span>&gt;</span>
+
+<span>&lt;!-- JS, Popper.js, and jQuery --&gt;</span>
+<span>&lt;script </span><span>src=</span><span>"https://code.jquery.com/jquery-3.5.1.slim.min.js"</span> <span>integrity=</span><span>"sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"</span> <span>crossorigin=</span><span>"anonymous"</span><span>&gt;&lt;/script&gt;</span>
+<span>&lt;script </span><span>src=</span><span>"https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"</span> <span>integrity=</span><span>"sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"</span> <span>crossorigin=</span><span>"anonymous"</span><span>&gt;&lt;/script&gt;</span>
+<span>&lt;script </span><span>src=</span><span>"https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"</span> <span>integrity=</span><span>"sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"</span> <span>crossorigin=</span><span>"anonymous"</span><span>&gt;&lt;/script&gt;</span></pre>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 stretch-card grid-margin">
+              <div class="card bg-gradient-success card-img-holder text-white" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000">
+                <div class="card-body">
+                  <h4 class="font-weight-normal mb-3">Icons <i class="mdi mdi-file-find mdi-24px float-right"></i>
+                  </h4>
+                  <h5 class="mb-5">For the first time ever, Bootstrap has its own open source SVG icon library, designed to work best with our components and documentation.</h5>
+                      <pre class="card-text">npm install bootstrap-icons</pre>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-7 grid-margin stretch-card">
+              <div class="card" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1000">
+                <div class="card-body">
+                  <h2 class="card-title">Official Themes <i class="mdi mdi-water mdi-24px float-right"></i></h2>
+                  <p class="card-description mt-5 mb-5">
+                    Take Bootstrap to the next level with premium themes from the <a href="https://themes.getbootstrap.com">official Bootstrap Themes marketplace</a>.
+                  </p>
+                  <p class="mb-5 mt-5">
+                    Themes are built on Bootstrap as their own extended frameworks, rich with new components and plugins, documentation, and powerful build tools.
+                  </p>
+                  <a href="https://themes.getbootstrap.com" class="btn btn-lg btn-outline-primary mb-3" target="_blank" id="white">Browse themes</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-5 grid-margin stretch-card">
+              <div class="card" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1000">
+                <div class="card-body">
+                  <h4 class="card-title">Todo <i class="mdi mdi-playlist-check mdi-24px float-right"></i></h4>
+                  <div class="add-items d-flex">
+                    <input type="text" class="form-control todo-list-input" placeholder="What do you need to do today?">
+                    <button class="add btn btn-gradient-primary font-weight-bold todo-list-add-btn" id="add-task">Add</button>
+                  </div>
+                  <div class="list-wrapper">
+                    <ul class="d-flex flex-column-reverse todo-list todo-list-custom">
+                      <li>
+                        <div class="form-check">
+                          <label class="form-check-label">
+                            <input class="checkbox" type="checkbox"> Buttons </label>
+                        </div>
+                        <i class="remove mdi mdi-close-circle-outline"></i>
+                      </li>
+                      <li class="completed">
+                        <div class="form-check">
+                          <label class="form-check-label">
+                            <input class="checkbox" type="checkbox" checked> Typography </label>
+                        </div>
+                        <i class="remove mdi mdi-close-circle-outline"></i>
+                      </li>
+                      <li>
+                        <div class="form-check">
+                          <label class="form-check-label">
+                            <input class="checkbox" type="checkbox"> Icons </label>
+                        </div>
+                        <i class="remove mdi mdi-close-circle-outline"></i>
+                      </li>
+                      <li>
+                        <div class="form-check">
+                          <label class="form-check-label">
+                            <input class="checkbox" type="checkbox"> Forms </label>
+                        </div>
+                        <i class="remove mdi mdi-close-circle-outline"></i>
+                      </li>
+                      <li class="completed">
+                        <div class="form-check">
+                          <label class="form-check-label">
+                            <input class="checkbox" type="checkbox" checked> Tables </label>
+                        </div>
+                        <i class="remove mdi mdi-close-circle-outline"></i>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <footer class="footer">
+          <div class="container">
+            <div class="row justify-content-between">
+              <div class="col-md-6 col-xs-12 d-none d-md-block">
+                <h5>Our Address</h5>
+                <address>
+                  121, Clear Water Bay Road<br>
+                  Clear Water Bay, Kowloon<br>
+                  HONG KONG<br><br>
+                  <i class="mdi mdi-phone mdi-lg"></i>: +852 1234 5678<br>
+                  <i class="mdi mdi-fax mdi-lg"></i>: +852 8765 4321<br>
+                </address>
+              </div>
+              <div class="col-md-6 col-xs-12 align-self-center">
+                <div style="text-align:center">
+                  <a class="btn btn-sm rounded-circle btn-google text-white" href="http://google.com/+"><i class="mdi mdi-google-plus"></i></a>
+                  <a class="btn btn-sm rounded-circle btn-facebook text-white" href="http://www.facebook.com/profile.php?id="><i class="mdi mdi-facebook"></i></a>
+                  <a class="btn btn-sm rounded-circle btn-linkedin text-white" href="http://www.linkedin.com/in/"><i class="mdi mdi-linkedin"></i></a>
+                  <a class="btn btn-sm rounded-circle btn-twitter text-white" href="http://twitter.com/"><i class="mdi mdi-twitter"></i></a>
+                  <a class="btn btn-sm rounded-circle btn-youtube text-white" href="http://youtube.com/"><i class="mdi mdi-youtube"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="row justify-content-center">
+              <div class="col-auto">
+                <br>
+                <p>&copy; Copyright 2020 by Akhil Kattamuri. All rights reserved.</p>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </div>
+  <script src="assets/vendors/js/vendor.bundle.base.js"></script>
+  <script src="assets/js/off-canvas.js"></script>
+  <script src="assets/js/hoverable-collapse.js"></script>
+  <script src="assets/js/misc.js"></script>
+  <script src="assets/js/todolist.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>
